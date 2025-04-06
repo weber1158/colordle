@@ -4,7 +4,7 @@
 `Colordle` is a color guessing game inspired by the popular NY Times game Worlde. There are several other games called "Colordle" that can be found online, but this version is a little different and can be played in Matlab.
 
 ## How to play
-With `Colordle` installed on your Windows computer, type the following in the Matlab Command Window:
+With `Colordle` installed, type the following in the Matlab Command Window:
 
 ```matlab
 colordle
