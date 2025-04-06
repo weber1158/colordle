@@ -28,7 +28,7 @@ For a refresher on hexadecimal codes, I recommend the explanation by [Math is Fu
 
 
 ## Useful features
-* There are 255<sup>3</sup>=16,777,216 possible hexadecimal combinations. To keep the game fair, `Colordle` shows you the color that you are trying to guess.
+* There are 256<sup>3</sup>=16,777,216 possible hexadecimal combinations. To keep the game fair, `Colordle` shows you the color that you are trying to guess.
 * `Colordle` tracks your stats after every game. To view your stats, click the middle button in the top-right corner (it looks like a graph). 
    * Stats are stored in a file called `colordle_statistics.txt`, which is saved and updated automatically in the Desktop folder on your PC. 
    * For macOS and UNIX users, `colordle_statistics.txt` should theoretically save in the `HOME` environment, but as a Windows user I cannot test this. However, I am confident that it will work for UNIX operating systems because I tested the Colordle app in MATLAB Online and it worked just fine.
