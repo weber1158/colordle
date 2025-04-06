@@ -16,7 +16,7 @@ colordle
 
 The main difference between `Colordle` and Wordle is that you need to guess a 6-character hexadecimal code instead of a 5-character word. The hexadecimal alphabet only has 16 characters, but unlike Wordle, every combination of characters is possible.
 
-Secondly, `Colordle` does not color tiles in teh same way as Wordle. Tiles do not turn yellow if you guess a character correctly but in the wrong tile position. Instead, tiles will only turn yellow if your guess is within ±3 of the true character in the same tile position. If you guess a tile correctly, however, it will turn green--the same as Wordle.
+Secondly, `Colordle` does not color tiles in the same way as Wordle. That is, a tile will not turn yellow if you guess a correct character in the wrong tile position. Instead, a tile will only turn yellow if your guess for that tile is within ±3 of the true character. If you guess a tile correctly, however, the tile will turn green--the same as Wordle.
 
 For a refresher on hexadecimal codes, I recommend the explanation by [Math is Fun](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).
 
