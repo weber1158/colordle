@@ -1,6 +1,12 @@
 <img alt="Colordle banner" width="800" src="banner.png">
 
 ## About
+
+[![View my project on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/180680) 
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/fileexchange/v1?id=180680)
+
+
+
 `Colordle` is a color guessing game inspired by the popular NY Times game Worlde. There are several other games called "Colordle" that can be found online, but this version is a little different and can be played in Matlab.
 
 ## How to play
