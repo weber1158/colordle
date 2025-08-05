@@ -22,7 +22,7 @@ colordle
 
 The main difference between `Colordle` and Wordle is that you need to guess a 6-character hexadecimal code instead of a 5-character word. The hexadecimal alphabet only has 16 characters, but unlike Wordle, every combination of characters is possible.
 
-Secondly, `Colordle` does not color tiles in the same way as Wordle. That is, a tile will not turn yellow if you guess a correct character in the wrong tile position. Instead, a tile will only turn yellow if your guess for that tile is within ±3 of the true character. If you guess a tile correctly, however, the tile will turn green--the same as Wordle.
+Secondly, `Colordle` **does not color tiles in the same way as Wordle**. That is, a tile will not turn yellow if you guess a correct character in the wrong tile position. Instead, a tile will only turn yellow if your guess for that tile is within ±3 of the true character. If you guess a tile correctly, however, the tile will turn green--the same as Wordle.
 
 For a refresher on hexadecimal codes, I recommend the explanation by [Math is Fun](https://www.mathsisfun.com/hexadecimal-decimal-colors.html).
 
@@ -32,4 +32,5 @@ For a refresher on hexadecimal codes, I recommend the explanation by [Math is Fu
 * `Colordle` tracks your stats after every game. To view your stats, click the middle button in the top-right corner (it looks like a graph). 
    * Stats are stored in a file called `colordle_statistics.txt`, which is saved and updated automatically in the Desktop folder on your PC. 
    * For macOS and UNIX users, `colordle_statistics.txt` should theoretically save in the `HOME` environment, but as a Windows user I cannot test this. However, I am confident that it will work for UNIX operating systems because I tested the Colordle app in MATLAB Online and it worked just fine.
+
 * Unlike Worlde, you can play as many games of `Colordle` per day as you want. Just click the button in the top right (it looks like a clockwise arrow) to begin a new game.
